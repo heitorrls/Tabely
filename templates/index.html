@@ -3,8 +3,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pagina Inicial</title>
-    <link rel="stylesheet" href="index.css" />
-  </head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/paginaLogin.css') }}" />  </head>
   <body>
     <div class="container">
       <!-- Barra Lateral -->
@@ -21,7 +20,7 @@
         </div>
       </aside>
   
-      <!-- Área Principal -->
+      <!-- Área Principal --> 
       <main class="main-content">
         <div class="playlist-header">
           <img class="playlist-cover" src="mbappe.jpg" alt="Playlist Cover">
