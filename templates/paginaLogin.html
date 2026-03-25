@@ -17,21 +17,22 @@
       <button
         class="action-button"
         type="button"
-        onclick="location.href='index.html'"
+        onclick="location.href='/index'"
       >
         Fazer Login
       </button>
       <button
         class="action-button"
         type="button"
-        onclick="location.href='cadastrese.html'"
+        onclick="location.href='/cadastrese'"
       >
         Crie sua conta
       </button>
       <p class="no-account-text">
         Não tem uma conta?
-        <a href="cadastrese.html" class="link">Cadastre-se aqui</a>
+        <a href="/cadastrese" class="link">Cadastre-se aqui</a>
       </p>
     </div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
   </body>
 </html>
